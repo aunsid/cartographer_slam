@@ -18,12 +18,10 @@ https://github.com/aunsid/ouster
 
 ## BAGGING DATA FOR BUILDING MAP
 
-1. create ouster_ws  
-2. <ouster ws>$git clone https://github.com/ouster-lidar/ouster_example.git  
-3. get the ouster hostname   
-4. change the ip address and ouster hostname in os1.launch  
-5. <ouster ws>$ roslaunch ouster_ros os1.launch  
-6. new terminal : $rosbag record -a    
+1. get the ouster hostname   
+2. change the ip address and ouster hostname in os1.launch  
+3. <ouster ws>$ roslaunch ouster_ros os1.launch  
+4. new terminal : $rosbag record -a    
 
 Note: Make sure that you are not running rviz while bagging as publishes  /tf and /tf_static topics.   
 
