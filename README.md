@@ -48,5 +48,5 @@ https://www.youtube.com/watch?v=vHXnUiaOZ_c&t=143s
   
   
 ## References
-1. https://google-cartographer.readthedocs.io/en/latest/
-2.https://www.wilselby.com/2019/06/ouster-os-1-lidar-and-google-cartographer-integration/
+1. https://google-cartographer.readthedocs.io/en/latest/  
+2.https://www.wilselby.com/2019/06/ouster-os-1-lidar-and-google-cartographer-integration/  
