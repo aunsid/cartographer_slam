@@ -1,0 +1,42 @@
+package cartographer_ros_msgs;
+
+public interface TrajectoryOptions extends org.ros.internal.message.Message {
+  static final java.lang.String _TYPE = "cartographer_ros_msgs/TrajectoryOptions";
+  static final java.lang.String _DEFINITION = "# Copyright 2016 The Cartographer Authors\n#\n# Licensed under the Apache License, Version 2.0 (the \"License\");\n# you may not use this file except in compliance with the License.\n# You may obtain a copy of the License at\n#\n#      http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n# See the License for the specific language governing permissions and\n# limitations under the License.\n\nstring tracking_frame\nstring published_frame\nstring odom_frame\nbool provide_odom_frame\nbool use_odometry\nbool use_nav_sat\nbool use_landmarks\nbool publish_frame_projected_to_2d\nint32 num_laser_scans\nint32 num_multi_echo_laser_scans\nint32 num_subdivisions_per_laser_scan\nint32 num_point_clouds\nfloat64 rangefinder_sampling_ratio\nfloat64 odometry_sampling_ratio\nfloat64 fixed_frame_pose_sampling_ratio\nfloat64 imu_sampling_ratio\nfloat64 landmarks_sampling_ratio\n\n# This is a binary-encoded\n# \'cartographer.mapping.proto.TrajectoryBuilderOptions\' proto.\nstring trajectory_builder_options_proto\n";
+  java.lang.String getTrackingFrame();
+  void setTrackingFrame(java.lang.String value);
+  java.lang.String getPublishedFrame();
+  void setPublishedFrame(java.lang.String value);
+  java.lang.String getOdomFrame();
+  void setOdomFrame(java.lang.String value);
+  boolean getProvideOdomFrame();
+  void setProvideOdomFrame(boolean value);
+  boolean getUseOdometry();
+  void setUseOdometry(boolean value);
+  boolean getUseNavSat();
+  void setUseNavSat(boolean value);
+  boolean getUseLandmarks();
+  void setUseLandmarks(boolean value);
+  boolean getPublishFrameProjectedTo2d();
+  void setPublishFrameProjectedTo2d(boolean value);
+  int getNumLaserScans();
+  void setNumLaserScans(int value);
+  int getNumMultiEchoLaserScans();
+  void setNumMultiEchoLaserScans(int value);
+  int getNumSubdivisionsPerLaserScan();
+  void setNumSubdivisionsPerLaserScan(int value);
+  int getNumPointClouds();
+  void setNumPointClouds(int value);
+  double getRangefinderSamplingRatio();
+  void setRangefinderSamplingRatio(double value);
+  double getOdometrySamplingRatio();
+  void setOdometrySamplingRatio(double value);
+  double getFixedFramePoseSamplingRatio();
+  void setFixedFramePoseSamplingRatio(double value);
+  double getImuSamplingRatio();
+  void setImuSamplingRatio(double value);
+  double getLandmarksSamplingRatio();
+  void setLandmarksSamplingRatio(double value);
+  java.lang.String getTrajectoryBuilderOptionsProto();
+  void setTrajectoryBuilderOptionsProto(java.lang.String value);
+}
